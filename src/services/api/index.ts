@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const endpoint = 'http://localhost:4000';
+const isProduction = process.env.NODE_ENV === 'production';
+
+const endpoint = isProduction ? '' : 'http://localhost:4000';
 
 export const api = axios.create({
   baseURL: endpoint,

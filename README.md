@@ -28,17 +28,18 @@ pnpm dev
 # or
 bun dev
 ```
+
+## Estructura del Proyecto
+
+- `/src/pages`: Contiene las rutas y páginas del proyecto.
+- `/src/components`: Componentes reutilizables.
+- `/src/styles`: Estilos globales o configuraciones del tema.
+- `/src/services`: Manejo de API.
+- `/src/hooks`: Custom hooks.
+- `/src/utils`: Utilidades.
     
-## Deployment
 
-En vercel
-
-```bash
-  git push
-```
-
-
-## Authors
+## Author
 
 - [@jaggervlad](https://www.github.com/jaggervlad)
 
